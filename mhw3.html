@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mhw3.css" />
+    <script src="mhw3.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC--MkdsPAqLmzk4M4sgjkq4pJYC0KuKM8&libraries=maps,marker&v=beta">
+    </script>
+    <title>Document</title>
+  </head>
+
+  <body>
+  <!--INIZIO HEADER-->
+    <header>
+      <div class="header-top">
+        <p>Spedizione gratutita in Italia a partire da 100€</p>
+      </div>
+
+      <nav class="header-flex">
+        <div id="header-left">
+          <a href="https://amabilejewels.it/">
+            <img id="header-left-image" src="images/SCRITTAAMABILE.png"
+          /></a>
+        </div>
+
+        <nav id="header-center">
+          <ul>
+            <li class="header-center-barr">
+              <a href="https://amabilejewels.it/categoria-prodotto/lovli"
+                >LOVLI</a
+              >
+            </li>
+            <li class="header-center-barr">
+              <a href="https://amabilejewels.it/categoria-prodotto/collezioni"
+                >COLLEZIONI</a
+              >
+            </li>
+            <li class="header-center-barr">
+              <a href="https://amabilejewels.it/categoria-prodotto/orecchini"
+                >ORECCHINI</a
+              >
+            </li>
+            <li class="header-center-barr">
+              <a href="https://amabilejewels.it/categoria-prodotto/anelli"
+                >ANELLI</a
+              >
+            </li>
+            <li class="header-center-barr">
+              <a href="https://amabilejewels.it/categoria-prodotto/collane"
+                >COLLANE</a
+              >
+            </li>
+            <li class="header-center-barr">
+              <a href="https://amabilejewels.it/categoria-prodotto/braccialetti"
+                >BRACCIALI</a
+              >
+            </li>
+            <li class="header-center-barr">
+              <a href="https://amabilejewels.it/categoria-prodotto/set">SET</a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav id="header-right">
+          <span class="header-right-barr">
+            <img src="images/ricerca.png"
+          /></span>
+          <span class="header-right-barr"><img src="images/utente.png" /></span>
+          <span class="header-right-barr"
+            ><img src="images/carrello.png"
+          /></span>
+        </nav>
+      </nav>
+    </header>
+  <!--FINE HEADER-->
+
+
+  <!--IMMAGINE SOTTO HEADER DA MODIFICARE CON JS-->
+    <section id="background-1">
+      <button id="button-background">
+        <a href="https://amabilejewels.it/collezioni/collezione-spring/"
+          >SCOPRI DI PIÙ</a
+        >
+      </button>
+      <button id="button-background2"><</button>
+      <button id="button-background3">></button>
+      <div id="img-sottobackground1"></div>
+      <div id="img-sottobackground2"></div>
+
+      <div id="background-donna">
+        <div class="overlay"></div>
+        <a id="scritta-background1">COLLEZIONE GARDENIA</a>
+        <a id="scritta-background2">Fai il pieno di vitamina c(hic)</a>
+      </div>
+    </section>
+  <!-- FINE IMMAGINE SOTTO HEADER DA MODIFICARE CON JS-->
+
+
+
+  <!--INIZIO ARTICOLI SOTTO IMMAGINE DONNA-->
+    <section id="sotto-background">
+      <div id="sotto-background-flex">
+        <div class="row-background-flex">
+          <a href="https://amabilejewels.it/categoria-prodotto/lovli">
+            <img src="images/image-lovli.jpg" />
+          </a>
+        </div>
+        <div class="row-background-flex">
+          <a href="https://amabilejewels.it/categoria-prodotto/orecchini">
+            <img src="images/image-orecchini.jpg" />
+          </a>
+        </div>
+        <div class="row-background-flex">
+          <a href="https://amabilejewels.it/categoria-prodotto/anelli">
+            <img src="images/image-anelli.jpg" />
+          </a>
+        </div>
+        <div class="row-background-flex">
+          <a href="https://amabilejewels.it/categoria-prodotto/collane">
+            <img src="images/image-collane.jpg" />
+          </a>
+        </div>
+        <div class="row-background-flex">
+          <a href="https://amabilejewels.it/categoria-prodotto/braccialetti">
+            <img src="images/image-bracciali.jpg" />
+          </a>
+        </div>
+      </div>
+      <span class="row-background-flex-1">Lovli </span>
+      <span class="row-background-flex-1">Orecchini </span>
+      <span class="row-background-flex-1">Anelli </span>
+      <span class="row-background-flex-1">Collane </span>
+      <span class="row-background-flex-1">Bracciali </span>
+      <button id="row-button-background">
+        <a href="https://amabilejewels.it/categoria-prodotto/tutti-i-gioielli"
+          >SCOPRI TUTTI I GIOIELLI</a
+        >
+      </button>
+    </section>
+  <!--FINE ARTICOLI SOTTO IMMAGINE DONNA-->
+
+
+
+
+  <!--INIZIO SEZIONE ABBELLIMENTO SITO-->
+    <div class="separator"></div>
+    <button id="scrollToTopButton">▲</button>
+  <!--FINE SEZIONE ABBELLIMENTO SITO-->
+
+
+
+  <!--INZIO ARTICOLI IN VENDITA-->
+    <section id="articoli-vendita">
+      <h1 id="scritta-vendita">I PIÙ AMATI</h1>
+
+      <div id="main-container">
+        <div class="container-vendita">
+          <img src="images/image-lovlifiocco.jpg" />
+          <div>LOVLI FIOCCO ARGENTO</div>
+          <p>22,90€</p>
+        </div>
+        <div class="container-vendita">
+          <img src="images/image-lovlicuore.jpg" />
+          <div>LOVLI CUORE MADREPERLA</div>
+          <p>22,90€</p>
+        </div>
+        <div class="container-vendita">
+          <img src="images/image-lovliletterina.jpg" />
+          <div>LOVLI LETTERINA ARGENTO</div>
+          <p>22,90€</p>
+        </div>
+        <div class="container-vendita">
+          <img src="images/image-hoopliscio.jpg" />
+          <div>HOOP LISCIO ARGENTO</div>
+          <p>14,90€</p>
+        </div>      
+      </div>
+    </section>
+  <!--FINE ARTICOLI IN VENDITA-->
+
+
+  <!--INIZIO STORIA AMABILE-->
+    <article id="main-storia">
+      <div id="immagine-donne"><div></div></div>
+      <div id="storia-amabile">
+        <h1>LA STORIA DI AMABILE</h1>
+        <p>
+          <br />Quella di Amabile e di Martina Strazzer, CEO e Founder, è una
+          bellissima storia di <br />determinazione, che ci insegna che non
+          sempre la strada già tracciata è quella giusta, e <br />
+          che per raggiungere i propri obiettivi bisogna avere il coraggio di
+          mettersi in gioco.
+          <button id="button-storia">
+            <a href="https://amabilejewels.it/chi-siamo">SCOPRI DI PIÙ</a>
+          </button>
+        </p>
+      </div>
+    </article>
+
+ <!--FINE STORIA AMABILE-->
+
+
+
+  <!--INIZIO SEZIONE MAPS-->
+      <article id="container-map">
+      <h2>DOVE TROVARCI</h2>
+      <div id="map-flex">
+          <div id="map">
+            <gmp-map center="44.6350135,10.9031586" zoom="14" map-id="DEMO_MAP_ID">
+              <gmp-advanced-marker position="44.6350135,10.9031586" title="My location"></gmp-advanced-marker>
+            </gmp-map>
+           </div>
+      </article>      
+  <!--FINE SEZIONE MAPS-->
+
+
+
+  <!--INIZIO SEZIONE NEWS-->
+    <section id="new">
+    </section>
+  <!--FINE SEZIONE NEWS-->
+
+  <!--INIZIO SEZIONE MUSICA-->
+
+  <section id="album-container">
+    <h1>Album musicali</h1>
+    <form >
+      <input type='text' id='album'>
+      <input type='submit' id='submit' value='Cerca'>
+    </form>
+
+    <section id="album-view">
+  </section>
+</section>
+  <!--FINE SEZIONE MUSICA-->
+
+
+
+    <!--INIZIO FOOTER-->
+    <footer>
+      <div id="container-footer">
+                <div><h5>Shop</h5>
+                    <ul>
+                      <li><a href="https://amabilejewels.it/categoria-prodotto/lovli">Lovli</a></li>
+                      <li><a href="https://amabilejewels.it/collezioni/">Collezioni</a></li>
+                      <li><a href="https://amabilejewels.it/categoria-prodotto/orecchini">Orecchini</a></li>
+                      <li><a href="https://amabilejewels.it/categoria-prodotto/anelli">Anelli</a></li>
+                      <li><a href="https://amabilejewels.it/categoria-prodotto/collane">Collane</a></li>
+                      <li><a href="https://amabilejewels.it/categoria-prodotto/braccialetti">Bracciali</a></li>
+                      <li><a href="https://amabilejewels.it/categoria-prodotto/set">Set</a></li>
+                      <li><a href="https://amabilejewels.it/categoria-prodotto/buono-regalo">Buono regalo</a></li>
+                  </ul> 
+              </div>
+          <div><h5>About us</h5>
+              <ul>
+                <li> <a href="https://amabilejewels.it/chi-siamo">Chi siamo</a></li>
+                <li> <a href="https://amabilejewels.it/blog">Blog</a></li>
+                <li> <a href="https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2F%40team_amabile&lang=en&enter_method=mandatory"><img src="images/tiktok.png"></a> 
+                    <a href="https://www.facebook.com/amabilejewels.it/"><img src="images/facebook.png"></a>
+                    <a href="https://www.instagram.com/amabile_jewels/"><img src="images/instagram.png"></a></li>
+              </ul> 
+            </div>
+          <div><h5>Assistenza</h5>
+            <ul>
+              <li> <a href="https://amabilejewels.it/contact/">Contatti</a></li>
+              <li> <a href="https://amabilejewels.it/resi">Resi</a></li>
+              <li> <a href="https://amabilejewels.it/faq">FAQ</a></li>
+              <li> <a href="https://amabilejewels.it/guida-alle-taglie">Guida alle taglie</a></li>
+          </ul> </div>
+          <div><h5>Area legale</h5>
+            <ul>
+              <li> <a href="https://www.iubenda.com/privacy-policy/52304325/cookie-policy">Cookie policy</a></li>
+              <li> <a href="https://www.iubenda.com/privacy-policy/52304325">Privacy policy</a></li>
+              <li> <a href="https://amabilejewels.it/condizioni-generali-di-vendita">Termini e condizioni</a></li>
+              <li> <a href="">Gestione cookie</a></li>
+              <li> <a href="https://amabilejewels.it/#">Notice at Collection</a></li>
+          </ul> 
+        </div>
+     </div>
+    </footer>
+    <!--FINE FOOTER-->
+  </body>
+</html>
+

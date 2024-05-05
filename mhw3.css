@@ -1,0 +1,619 @@
+body {
+  margin: 0%;
+}
+
+/* INIZIO HEADER */
+
+header {
+  height: 125px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 0px;
+}
+
+.header-top {
+  height: 26%;
+  background-color: #dda4a7;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font: 500 12px / 1.35 Helvetica, Verdana, Arial, sans-serif;
+  font-size: 90%;
+  font-weight: 150;
+}
+
+.header-flex {
+  margin-top: 0%;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 42%;
+  display: flex;
+}
+
+#header-left {
+  width: 20%;
+}
+
+#header-center {
+  width: 120%;
+}
+#header-left-image {
+  max-height: 70%;
+  padding-left: 60px;
+  padding-right: 160px;
+  padding-top: 4%;
+}
+
+#header-right {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#header-center ul {
+  margin: 0;
+  padding: 0;
+}
+
+#header-center ul li {
+  padding-top: 2.5%;
+  font: 500 12px / 1.35 Helvetica, Verdana, Arial, sans-serif;
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 4%;
+}
+
+.header-right-barr {
+  padding-left: 4%;
+  padding-right: 6%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* FINE HEADER */
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/*INZIO BACKGROUND CON IMMAGINE DONNA*/
+
+#background-1 {
+  height: 600px;
+  margin: 0px;
+}
+
+#background-donna {
+  background-image: url("images/image-donna.jpg");
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  z-index: -2;
+  border-radius: 10px;
+  transition: background-image 0.5s;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+#scritta-background1 {
+  font: 400 13px / 1.35 Helvetica, Verdana, Arial, sans-serif;
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+#scritta-background2 {
+  font: 400 13px / 1.35 Helvetica, Verdana, Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 50;
+  position: absolute;
+  top: 55%;
+  left: 10.5%;
+}
+
+#button-background {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #dda4a7;
+  color: #000;
+  border-radius: 5px;
+  top: 0%;
+  left: 0%;
+  font-weight: bold;
+  font-size: 13px;
+  top: 75%;
+  left: 10.5%;
+}
+
+#button-background:hover {
+  background-color: #dda4a7 !important;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+#button-background2 {
+  width: 40px;
+  height: 40px;
+  font-size: larger;
+  text-align: center;
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #888888;
+  color: #cfcfcf;
+  border-radius: 100%;
+  top: 0%;
+  left: 0%;
+  font-weight: bold;
+  font-size: 13px;
+  top: 65%;
+  left: 2%;
+  visibility: hidden;
+}
+
+#button-background2:hover {
+  background-color: #ffffff !important;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  transition: background-color 0.5s;
+}
+
+#button-background3 {
+  width: 40px;
+  height: 40px;
+  font-size: larger;
+  text-align: center;
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #888888;
+  color: #cfcfcf;
+  border-radius: 100%;
+  top: 0%;
+  left: 0%;
+  font-weight: bold;
+  font-size: 13px;
+  top: 65%;
+  left: 95%;
+  visibility: hidden;
+}
+
+#background-1:hover #button-background2,
+#background-1:hover #button-background3 {
+  display: block;
+  visibility: visible;
+  transition: visibility 0.9s;
+}
+
+#button-background3:hover {
+  background-color: #ffffff !important;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  transition: background-color 0.3s;
+}
+
+#button-background4 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border: 2px solid #ffffff;
+  color: #cfcfcf;
+  border-radius: 100%;
+  top: 0%;
+  left: 0%;
+  font-weight: bold;
+  top: 100%;
+  left: 45%;
+}
+
+#img-sottobackground1 {
+  position: absolute;
+  background-image: url("images/image-fiore.jpg");
+  background-size: 90px;
+  background-position: -35px;
+  background-position-y: 1px;
+  background-repeat: no-repeat;
+  top: 100%;
+  left: 49%;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 2px solid #000000;
+}
+
+#img-sottobackground2 {
+  position: absolute;
+  background-image: url("images/image-donna.jpg");
+  background-size: 115px;
+  background-position: -40px;
+  background-position-y: -2px;
+  background-repeat: no-repeat;
+  top: 100%;
+  left: 45%;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+}
+
+/*FINE BACKGROUND CON IMMAGINE DONNA*/
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/*INIZIO ARTICOLI SOTTO IMMAGINE DONNA*/
+
+#sotto-background {
+  height: 400px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 90px;
+  background-color: rgb(255, 255, 255);
+}
+
+#sotto-background-flex {
+  display: flex;
+  width: 90%;
+  height: 70%;
+  justify-content: space-between;
+}
+
+.row-background-flex img:first-child {
+  margin-left: 35%;
+}
+
+.row-background-flex img {
+  width: 100%;
+  height: 90%;
+  border-radius: 5%;
+  transition: 0.5s ease;
+  box-shadow: 0px 0px 10px rgba(105, 105, 105, 0.5);
+}
+
+.row-background-flex img:hover {
+  transform: scale(1.1);
+}
+
+.row-background-flex-1 {
+  font: "Montserrat", "sans-serif";
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 50px;
+  font-size: 20px;
+  margin-left: 8%;
+  margin-right: 6.5%;
+}
+
+#row-button-background {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  padding: 15px 25px;
+  background-color: white;
+  border: 1.5px solid #dda4a7;
+  color: #000;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  top: 170%;
+  left: 40%;
+}
+
+#row-button-background:hover {
+  background-color: #dda4a7 !important;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+/*FINE ARTICOLI SOTTO IMMAGINE DONNA*/
+
+/*----------------------------------------------------------------------------------------------------*/
+
+.separator {
+  height: 2px;
+  background-color: #dda4a7;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px 15px;
+  border: 0px;
+  background-color: white;
+  color: rgba(134, 134, 134, 0.5);
+  border-radius: 100%;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgba(134, 134, 134, 0.5);
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/*INIZIO PRODOTTI IN VENDITA*/
+
+#articoli-vendita {
+  height: 450px;
+  width: 100%;
+  margin-top: 5%;
+}
+
+#scritta-vendita {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  margin-left: 42%;
+  margin-right: 30%;
+  letter-spacing: 1px;
+}
+
+#main-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: -1;
+}
+
+.container-vendita {
+  display: inline-block;
+  position: relative;
+  margin-left: 4%;
+  height: 90%;
+  width: 20%;
+  border-radius: 5%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(134, 134, 134, 0.5);
+}
+
+.container-vendita img {
+  height: 60%;
+  width: 100%;
+}
+
+.container-vendita div {
+  font: 400 14px / 1.35 Montserrat, sans-serif;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 3%;
+  color: #888888;
+}
+
+.container-vendita p {
+  font: "Montserrat", sans-serif;
+  margin-left: 37%;
+  margin-right: 10%;
+  color: #dda4a7;
+  font-size: 25px;
+}
+
+/*FINE PRODOTTI IN VENDITA*/
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/*INIZIO STORIA AMABILE*/
+#main-storia {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  margin-top: 5%;
+  box-shadow: 0px 0px 10px #ffb9b9c5;
+}
+
+#immagine-donne {
+  flex: 1;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+#immagine-donne div {
+  height: 100%;
+  width: 100%;
+  background-image: url("images/image-soprafooter.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: 0.7s ease;
+}
+
+#immagine-donne div:hover {
+  transform: scale(1.1);
+}
+
+#storia-amabile {
+  flex: 1;
+  height: 100%;
+  width: 50%;
+  background-color: #fce2e2;
+}
+
+#storia-amabile h1 {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  margin: 20% 0% 0% 15%;
+}
+
+#storia-amabile p {
+  font-size: 15px;
+  font-weight: 50;
+  margin-left: 15%;
+  margin-top: 5%;
+  line-height: 1.5;
+}
+
+#button-storia {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #dda4a7;
+  color: #000;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 10%;
+  left: 0%;
+}
+
+#button-storia:hover {
+  background-color: #dda4a7 !important;
+  color: white;
+}
+
+/*FINE STORIA AMABILE*/
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/*INIZIO MAPS*/
+
+#container-map {
+  height: 400px;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  background-color: #fce2e2;
+  box-shadow: 0px 0px 10px #ffb9b9c5;
+}
+
+#container-map h2 {
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  margin-left: 40%;
+  margin-right: 30%;
+  margin-bottom: 0%;
+}
+
+#map-flex {
+  height: 100%;
+  width: 100%;
+  margin-top: 0%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+/*FINE MAPS*/
+
+/*----------------------------------------------------------------------------------------------------*/
+
+/*INIZIO NEWS*/
+
+.news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-shadow: 0px 0px 10px rgba(134, 134, 134, 0.5);
+}
+
+.news div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.news img {
+  height: 50%;
+  width: 100%;
+  border-radius: 5%;
+}
+
+/*FINE NEWS*/
+
+/*----------------------------------------------------------------------------------------------------*/
+/*INIZIO SPOTIFY*/
+
+#album-container {
+  margin: 10% 30% 5% 35%;
+  background-color: #fce2e2;
+  height: 100px;
+  box-shadow: 0px 0px 10px #ffb9b9c5;
+}
+
+/*FINE SPOTIFY*/
+/*----------------------------------------------------------------------------------------------------*/
+
+/*INIZIO FOOTER*/
+
+footer {
+  height: 350px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #fce2e2;
+  box-shadow: 0px 0px 10px #ffb9b9c5;
+}
+
+#container-footer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: #fce2e2;
+}
+
+#container-footer div {
+  box-sizing: border-box;
+  padding-top: 5%;
+  height: 100%;
+  width: 25%;
+  display: inline;
+  background-color: #fce2e2;
+}
+
+#container-footer h5 {
+  font-family: "montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 0;
+  color: rgb(0, 0, 0);
+}
+
+#container-footer ul {
+  font-family: "montserrat", sans-serif;
+  list-style-type: none;
+  font-size: 12px;
+  padding: 0;
+  line-height: 2;
+  color: black;
+}
+
+#container-footer ul li a:hover {
+  color: #dda4a7;
+}
+
+#container-footer img {
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 22px;
+  height: 22px;
+  transition: transform 0.3s;
+}
+
+#container-footer img:hover {
+  transform: translateY(-5px);
+}
+
+#container-footer img:first-child {
+  margin-left: 0%;
+}
